@@ -1,7 +1,19 @@
+/**
+ * Projeto: Main
+ * Descrição: Uma calculadora simples com operações de soma, subtração, multiplicação e divisão.
+ * @author: Gustavo Bassanetto
+ * @since Data de Criação: 16/11/2023
+ */
+
 import e2e.CalculadoraJunitTest;
 
 public class Main {
+    /**
+     * Classe principal que contém o método main para testar as operações da calculadora.
+     */
     public static void main(String[] args) {
+
+        // Instancia o objeto de teste
         CalculadoraJunitTest teste = new CalculadoraJunitTest();
 
         // Soma
